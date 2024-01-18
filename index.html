@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <style>
+        .career-options-grid{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+        }
+        .career-example-image{
+            float: left;
+            float: left;
+            width: 200px;
+            height: 250px;
+            margin: 10px;
+        }
+
+        .career-option{
+          text-align: center;
+          width: 200px;
+          font-family: 'Playfair Display', serif;
+        }
+
+        .my-header{
+          font-family: 'Playfair Display', serif;
+        }
+
+        .career{
+          color:saddlebrown;
+          text-decoration: none;
+        }
+        .subheader{
+          text-align: center;
+        }
+        body{
+          background-color: rgba(218, 206, 191, 0.267);
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container " style="width: 100%;">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Careers
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./archetecture.html">Architecture</a></li>
+                    <li><a class="dropdown-item" href="./interiorDesign.html">Interior Design</a></li>
+                    <li><a class="dropdown-item" href="./productDesign.html">Product Design</a></li>
+                    <li><a class="dropdown-item" href="./Animation.html">Animation</a></li>
+                    <li><a class="dropdown-item" href="./videoEditing.html">Video Editing</a></li>
+                    <li><a class="dropdown-item" href="./graphicDesign.html">Graphic Design</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold text-body-emphasis my-header">Career Explorer</h1>
+            <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Insight into some career fields, their work requirements, resources to learn more and a work project to give you the opportunity to experience work in that field.</p>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+                <img src="./Assets/WorkImage1.jpeg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700"  loading="lazy">
+            </div>
+            </div>
+        </div>
+        <h2 class="my-header subheader">Career Fields</h2>
+        <hr/>
+        <div class="career-options-grid">
+          <a href="./archetecture.html" class="career">
+            <p class="career-option">
+                Architecture
+                <img  src="./Assets/ArchetectureImage1.jpg" alt="ArchetectureImage" class="career-example-image"/>
+            </p>
+          </a>
+          <a href="./interiorDesign.html" class="career">
+            <p class="career-option">
+                Interior Design
+                <img  src="./Assets/InteriorDesignImage1.jpg" alt="InteriorDesignImage" class="career-example-image"/>
+            </p>
+          </a>
+          <a href="./productDesign.html" class="career">
+            <p class="career-option">
+                Product Design
+                <img  src="./Assets/ProductDesignImage1.jpg" alt="ProductDesignImage" class="career-example-image"/>
+            </p>
+          </a>
+          <a href="./Animation.html" class="career">
+            <p class="career-option">
+                Animation
+                <img  src="./Assets/AnimationImage1.jpg" alt="ProductDesignImage" class="career-example-image"/>
+            </p>
+          </a>
+          <a href="./videoEditing.html" class="career">
+            <p class="career-option">
+                Video Editing
+                <img  src="./Assets/VideoEditingImage1.jpg" alt="ProductDesignImage" class="career-example-image"/>
+            </p>
+          </a>
+          <a href="./graphicDesign.html" class="career">
+            <p class="career-option">
+                Graphic Design
+                <img  src="./Assets/GraphicDesignImage1.jpg" alt="ProductDesignImage" class="career-example-image"/>
+            </p>
+          </a>
+        </div>
+        <hr/>
+        <div class="container px-4 py-5" id="hanging-icons">
+          <h2 class="pb-2 border-bottom my-header">How the information on this site is provided</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Career Description</h3>
+                <p>A brief description and some of the jobs and duties of the selected career field has been provided to give an insight into what the career is like. </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Career Requirements</h3>
+                <p>The requirements to get into the selected career has been briefly listed to inform you of the available options to proceed into that career field.</p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Practice Career Job</h3>
+                <p>A job aplication link is provided with every career field as well as an guide and tips on all the tools you will need to complete the project.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr/>
+
+    </div>
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
